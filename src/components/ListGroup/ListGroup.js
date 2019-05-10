@@ -13,6 +13,7 @@ export default class ListGroup extends Component {
                         key={index}
                         id={index}
                         title={item.title}
+                        contactDetails={item.contactDetails}
                         description={item.description}
                         locationUrl={item.locationUrl}
                         selected={item.selected}

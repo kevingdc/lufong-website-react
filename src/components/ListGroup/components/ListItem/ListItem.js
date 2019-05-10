@@ -31,7 +31,11 @@ class ListItem extends Component {
             >
                 <div className="d-flex w-100 justify-content-between">
                     <h2 className="mb-1">{this.props.title}</h2>
+                    <small className="text-right">
+                        <strong>{this.props.contactDetails}</strong>
+                    </small>
                 </div>
+                <hr />
                 <p className="mb-1">{this.props.description}</p>
             </div>
         )

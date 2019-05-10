@@ -16,13 +16,28 @@ class Locations extends Component {
                             items={[
                                 {
                                     title: 'Imus',
+                                    contactDetails: (
+                                        <>
+                                            046-686-2806
+                                            <br />
+                                            0925-788-0886
+                                        </>
+                                    ),
                                     description: (
                                         <>
-                                            G/F Unit, Macneny Bldg. 1172
-                                            Aguinaldo Highway, Bayan Luma 4
-                                            Imus, Cavite
+                                            In front of South Supermarket &amp;
+                                            INBOX Aguinaldo Highway Tanzang Luma
+                                            IV
                                             <br />
-                                            (In front of Robinsons Imus)
+                                            (Can deliver to IMUS, BACOOR &amp;
+                                            MOLINO areas)
+                                            <br />
+                                            <br />
+                                            Store Hours:
+                                            <br />
+                                            Monday 11am-9pm
+                                            <br />
+                                            Tuesday-Sunday 9am-9pm
                                         </>
                                     ),
                                     locationUrl:
@@ -31,13 +46,31 @@ class Locations extends Component {
                                 },
                                 {
                                     title: 'Macapagal',
+                                    contactDetails: (
+                                        <>
+                                            938-9807
+                                            <br />
+                                            0917-543-8686
+                                        </>
+                                    ),
                                     description: (
                                         <>
-                                            G/F Unit, Macneny Bldg. 1172
-                                            Aguinaldo Highway, Bayan Luma 4
-                                            Imus, Cavite
+                                            Phoenix Gas Station MOA Edsa
+                                            Extension
                                             <br />
-                                            (In front of Robinsons Imus)
+                                            (Can deliver to PASAY, MAKATI &amp;
+                                            TAGUIG Areas)
+                                            <br />
+                                            <br />
+                                            Store Hours:
+                                            <br />
+                                            Monday 11am-9pm
+                                            <br />
+                                            Tuesday-Thursday 10am-9pm
+                                            <br />
+                                            Friday-Saturday 10am-10pm
+                                            <br />
+                                            Sunday 10am-9pm
                                         </>
                                     ),
                                     locationUrl:
