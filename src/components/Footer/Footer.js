@@ -4,8 +4,8 @@ import './style.css'
 export default class Footer extends Component {
     render() {
         return (
-            <footer className="footer">
-                <div className="footer-copyright text-center">
+            <footer className="pt-3">
+                <div className="text-center">
                     © 2018 LuFong-Imus Branch. All Rights Reserved.
                 </div>
             </footer>

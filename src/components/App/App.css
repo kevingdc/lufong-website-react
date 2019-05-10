@@ -22,6 +22,8 @@ div {
     font-family: 'Nunito', sans-serif;
 }
 
-body {
-    padding-top: 70px;
+body,
+#root,
+.App {
+    height: 100vh;
 }

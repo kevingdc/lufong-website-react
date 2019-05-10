@@ -8,7 +8,7 @@ import ListGroup from '../../components/ListGroup'
 class Locations extends Component {
     render() {
         return (
-            <div className="container-fluid mt-5">
+            <div className="container-fluid pt-5">
                 <div className="d-flex flex-column justify-content-center align-items-stretch">
                     <h1>Find us in the following locations:</h1>
                     <div className="d-flex flex-column flex-md-row">

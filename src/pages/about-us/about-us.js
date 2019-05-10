@@ -7,7 +7,7 @@ import logo from '../../assets/img/lufong-logo.png'
 export default class AboutUs extends Component {
     render() {
         return (
-            <div className="container-fluid mt-5">
+            <div className="container-fluid pt-5">
                 <div className="row">
                     <div className="offset-md-1 col-md-3">
                         <img
@@ -38,7 +38,7 @@ export default class AboutUs extends Component {
                     </div>
                 </div>
 
-                <div className="row mt-5">
+                <div className="row pt-5">
                     <div className="offset-md-1 col-md-7">
                         <h1 className="info-header">
                             70 Years of Cantonese - Filipino Flavors
