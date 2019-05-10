@@ -1,0 +1,5 @@
+.info-header {
+    font-weight: bold;
+    color: var(--primary-red-darker);
+    font-size: 60px;
+}

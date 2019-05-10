@@ -1,16 +1,17 @@
 import React, { Component } from 'react'
+import { NavLink } from 'react-router-dom'
 import './style.css'
 
-// Assets imports
+// Asset imports
 import logo from '../../assets/img/lufong-imus-macapagal-logo.png'
 
 export default class NavigationBar extends Component {
     render() {
         return (
             <nav className="nav navbar-expand-lg fixed-top">
-                <a className="navbar-brand" href="index.html">
-                    <img src={logo} />
-                </a>
+                <NavLink className="navbar-brand" to="/" exact>
+                    <img src={logo} alt="LuFong" />
+                </NavLink>
                 <button
                     className="navbar-toggler ml-auto"
                     type="button"
@@ -28,95 +29,101 @@ export default class NavigationBar extends Component {
                 <div className="collapse navbar-collapse" id="navbarContent">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item">
-                            <a className="nav-link" href="index.html">
+                            <NavLink className="nav-link" to="/" exact>
                                 HOME
-                            </a>
+                            </NavLink>
                         </li>
                         <li className="nav-item dropdown">
-                            <a
+                            <NavLink
                                 className="nav-link"
-                                href="javascript:void(0)"
                                 id="navbarDropdown"
                                 role="button"
                                 aria-haspopup="true"
                                 aria-expanded="false"
+                                to="#"
                             >
                                 PRODUCTS
-                            </a>
+                            </NavLink>
                             <div
                                 className="dropdown-menu"
                                 aria-labelledby="navbarDropdown"
                             >
-                                <a
+                                <NavLink
                                     className="dropdown-item"
-                                    href="products/pancit.html"
+                                    to="/products/solo-meals"
+                                >
+                                    SOLO MEALS
+                                </NavLink>
+                                <NavLink
+                                    className="dropdown-item"
+                                    to="/products/pancit"
                                 >
                                     PANCIT
-                                </a>
-                                <a
+                                </NavLink>
+                                <NavLink
                                     className="dropdown-item"
-                                    href="products/soup-and-noodles.html"
+                                    to="/products/soup-and-noodles"
                                 >
                                     SOUP AND NOODLES
-                                </a>
-                                <a
+                                </NavLink>
+                                <NavLink
                                     className="dropdown-item"
-                                    href="products/chicken.html"
+                                    to="/products/chicken"
                                 >
                                     CHICKEN
-                                </a>
-                                <a
+                                </NavLink>
+                                <NavLink
                                     className="dropdown-item"
-                                    href="products/beef.html"
+                                    to="/products/beef"
                                 >
                                     BEEF
-                                </a>
-                                <a
+                                </NavLink>
+                                <NavLink
                                     className="dropdown-item"
-                                    href="products/pork.html"
+                                    to="/products/pork"
                                 >
                                     PORK
-                                </a>
-                                <a
+                                </NavLink>
+                                <NavLink
                                     className="dropdown-item"
-                                    href="products/fish.html"
+                                    to="/products/fish"
                                 >
                                     FISH
-                                </a>
-                                <a
+                                </NavLink>
+                                <NavLink
                                     className="dropdown-item"
-                                    href="products/vegetables.html"
+                                    to="/products/vegetables"
                                 >
                                     VEGETABLES
-                                </a>
-                                <a
+                                </NavLink>
+                                <NavLink
                                     className="dropdown-item"
-                                    href="products/rice.html"
+                                    to="/products/rice"
                                 >
                                     RICE
-                                </a>
-                                <a
+                                </NavLink>
+                                <NavLink
                                     className="dropdown-item"
-                                    href="products/dessert.html"
+                                    to="/products/dessert"
                                 >
                                     DESSERT
-                                </a>
+                                </NavLink>
                             </div>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="promos.html">
+                            <NavLink className="nav-link" to="/promos">
                                 PROMOS
-                            </a>
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="locations.html">
+                            <NavLink className="nav-link" to="/locations">
                                 LOCATIONS
-                            </a>
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="about-us.html">
+                            <NavLink className="nav-link" to="/about-us">
                                 ABOUT US
-                            </a>
+                            </NavLink>
                         </li>
                     </ul>
                 </div>
