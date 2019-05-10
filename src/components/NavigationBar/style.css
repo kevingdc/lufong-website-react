@@ -18,6 +18,7 @@ nav {
 .nav-link:before {
     transition: all 0.5s;
 }
+
 .nav-link:hover {
     color: var(--accent-white);
     background-color: transparent !important;
@@ -39,6 +40,22 @@ nav {
 
 .nav-link:hover:after {
     width: 100%;
+}
+
+.active,
+.active:after,
+.active:before {
+    transition: all 0.5s;
+}
+
+.nav-item .active {
+    color: var(--primary-red-darker);
+    background-color: var(--accent-white);
+}
+
+.active:hover {
+    color: var(--accent-white);
+    background-color: transparent;
 }
 
 .navbar-nav li:hover > .dropdown-menu {
