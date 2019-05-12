@@ -3,6 +3,7 @@ import './style.css'
 
 // Asset imports
 import logo from '../../assets/img/lufong-logo.png'
+import pansitKing from '../../assets/img/lufong-pansit-king.png'
 
 export default class AboutUs extends Component {
     render() {
@@ -64,8 +65,8 @@ export default class AboutUs extends Component {
                     <div className=" col-md-3">
                         <img
                             className="d-none d-md-inline-block img-fluid"
-                            src={logo}
-                            alt="LuFong"
+                            src={pansitKing}
+                            alt="LuFong Pansit King"
                         />
                     </div>
                 </div>

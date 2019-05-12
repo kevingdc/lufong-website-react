@@ -40,7 +40,7 @@ export default class NavigationBar extends Component {
                                 role="button"
                                 aria-haspopup="true"
                                 aria-expanded="false"
-                                to="#"
+                                to="/products"
                             >
                                 PRODUCTS
                             </NavLink>

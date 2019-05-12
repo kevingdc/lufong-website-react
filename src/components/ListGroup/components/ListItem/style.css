@@ -4,5 +4,5 @@
 
 .selected,
 .selected:hover {
-    background-color: #ffd8cf;
+    background-color: var(--accent-red);
 }
