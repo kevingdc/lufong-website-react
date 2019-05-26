@@ -11,7 +11,7 @@ export default () => {
                 <hr className="header-line" />
             </div>
             <div className="menu-list row">
-                <div className="col-12 col-sm-6 col-lg-4 m-1">
+                <div className="col-12 col-sm-6 col-lg-4 mb-1">
                     <table className="menu-item-table w-100">
                         <tbody>
                             {/* {img ? (
@@ -44,7 +44,7 @@ export default () => {
                     </table>
                 </div>
 
-                <div className="col-12 col-sm-6 col-lg-4 m-1">
+                <div className="col-12 col-sm-6 col-lg-4 mb-1">
                     <table className="menu-item-table w-100">
                         <tbody>
                             {/* {img ? (
@@ -79,7 +79,7 @@ export default () => {
                     </table>
                 </div>
 
-                <div className="col-12 col-sm-6 col-lg-4 m-1">
+                <div className="col-12 col-sm-6 col-lg-4 mb-1">
                     <table className="menu-item-table w-100">
                         <tbody>
                             {/* {img ? (

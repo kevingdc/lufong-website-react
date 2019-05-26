@@ -1,77 +1,88 @@
 import React from 'react'
-
-// Component imports
-import MenuGroup from '../../../../components/MenuGroup'
-
-// Asset imports
-import soloMeals1 from '../../../../assets/img/solo-meals-1.jpg'
-import soloMeals2 from '../../../../assets/img/solo-meals-2.jpg'
-import soloMeals3 from '../../../../assets/img/solo-meals-3.jpg'
-import soloMeals4 from '../../../../assets/img/solo-meals-4.jpg'
-import soloMeals5 from '../../../../assets/img/solo-meals-5.jpg'
+import './style.css'
 
 export default () => {
     return (
-        <MenuGroup
-            id="pancit"
-            heading="PANCIT"
-            menu={[
-                {
-                    img: soloMeals1,
-                    code: 'SM1',
-                    name: (
-                        <>
-                            Shanghai Fried Rice, <br />3 pcs. Fried Chicken,{' '}
-                            <br />1 pc. Ube Pao
-                        </>
-                    ),
-                    price: '150',
-                },
-                {
-                    img: soloMeals2,
-                    code: 'SM2',
-                    name: (
-                        <>
-                            Shanghai Fried Rice, <br />6 pcs. Lumpiang Shanghai,{' '}
-                            <br />1 pc. Ube Pao
-                        </>
-                    ),
-                    price: '150',
-                },
-                {
-                    img: soloMeals3,
-                    code: 'SM3',
-                    name: (
-                        <>
-                            Shanghai Fried Rice, <br />
-                            1/2 Order of Lechong Kawali, <br />1 pc. Ube Pao
-                        </>
-                    ),
-                    price: '150',
-                },
-                {
-                    img: soloMeals4,
-                    code: 'SM4',
-                    name: (
-                        <>
-                            Plain Rice, <br />
-                            1/2 Order of Braised Beef, <br />1 pc. Ube Pao
-                        </>
-                    ),
-                    price: '150',
-                },
-                {
-                    img: soloMeals5,
-                    code: 'SM5',
-                    name: (
-                        <>
-                            Plain Rice, <br />
-                            1/2 Order of Hoototay Guisado, <br />2 pcs. Ube Pao
-                        </>
-                    ),
-                    price: '150',
-                },
-            ]}
-        />
+        <section className="menu-group mb-5" id="pancit">
+            <div className="menu-header">
+                <hr className="header-line" />
+                <h1>PANCIT</h1>
+                <hr className="header-line" />
+            </div>
+            <div className="menu-list row">
+                <div className="col-11 col-sm-10 col-lg-5 m-1">
+                    <table className="menu-item-table w-100">
+                        <caption>
+                            Choice of: Bihon, Canton, Lomi, Miki, Sotanghon,
+                            Miki-Bihon, Canton-Bihon
+                        </caption>
+                        <thead>
+                            <tr>
+                                <td />
+                                <td />
+                                <td className="menu-item-regular">Regular</td>
+                                <td className="menu-item-queen">Queen</td>
+                                <td className="menu-item-king">King</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Family</strong>
+                                </td>
+                                <td className="text-right">(2-3 pax)</td>
+                                <td className="menu-item-regular">200</td>
+                                <td className="menu-item-queen">280</td>
+                                <td className="menu-item-king">250</td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <strong>Small Bilao</strong>
+                                </td>
+                                <td className="text-right">(5-10 pax)</td>
+                                <td className="menu-item-regular">350</td>
+                                <td className="menu-item-queen">450</td>
+                                <td className="menu-item-king">500</td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <strong>Medium</strong>
+                                </td>
+                                <td className="text-right">(10-15 pax)</td>
+                                <td className="menu-item-regular">500</td>
+                                <td className="menu-item-queen">650</td>
+                                <td className="menu-item-king">850</td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <strong>Large</strong>
+                                </td>
+                                <td className="text-right">(15-20 pax)</td>
+                                <td className="menu-item-regular">850</td>
+                                <td className="menu-item-queen">950</td>
+                                <td className="menu-item-king">1200</td>
+                            </tr>
+
+                            {/* {img ? (
+                                <tr>
+                                    <td colSpan="3">
+                                        <img
+                                            className="w-100"
+                                            src={img}
+                                            alt={name}
+                                        />
+                                    </td>
+                                </tr>
+                            ) : (
+                                <></>
+                            )} */}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
     )
 }

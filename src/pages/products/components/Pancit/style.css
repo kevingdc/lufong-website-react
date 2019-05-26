@@ -1,0 +1,10 @@
+.menu-item-table thead tr {
+    border-bottom: 1px solid black;
+}
+
+.menu-item-regular,
+.menu-item-queen,
+.menu-item-king {
+    width: 15%;
+    text-align: right;
+}

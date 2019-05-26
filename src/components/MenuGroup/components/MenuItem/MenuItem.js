@@ -6,8 +6,8 @@ export default class MenuItem extends Component {
         const { img, code, name, price } = this.props
 
         return (
-            <div className="col-12 col-sm-6 col-lg-3 m-1">
-                <table className="menu-item-table w-100">
+            <div className="col-12 col-sm-6 col-lg-4 mb-1">
+                <table className="menu-item-table w-75">
                     <tbody>
                         {img ? (
                             <tr>
