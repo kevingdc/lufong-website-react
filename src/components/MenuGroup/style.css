@@ -1,0 +1,15 @@
+.menu-header {
+    /* background-color: var(--primary-red-dark); */
+    padding: 20px 0;
+}
+
+.menu-header h1 {
+    text-transform: uppercase;
+    font-size: 4em;
+    color: var(--primary-red-darker);
+    /* text-shadow: 2px 2px black; */
+}
+
+.header-line {
+    border-top: 3px solid var(--accent-red);
+}

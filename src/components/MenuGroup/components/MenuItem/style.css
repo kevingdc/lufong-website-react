@@ -1,0 +1,20 @@
+.menu-item-table td {
+    vertical-align: top;
+}
+
+.menu-item-code {
+    padding-right: 5px;
+}
+
+.menu-item-name {
+    padding: 0 10px;
+}
+
+.menu-item-price {
+    padding-left: 10px;
+}
+
+.menu-item-code {
+    min-width: 50px;
+    max-width: 50px;
+}
