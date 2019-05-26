@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavHashLink as NavLink } from 'react-router-hash-link'
 import './style.css'
 
 // Asset imports
@@ -50,61 +50,70 @@ export default class NavigationBar extends Component {
                             >
                                 <NavLink
                                     className="dropdown-item"
-                                    to="/products/solo-meals"
+                                    to="/products#solo-meals"
+                                    smooth
                                 >
                                     SOLO MEALS
                                 </NavLink>
                                 <NavLink
                                     className="dropdown-item"
-                                    to="/products/pancit"
+                                    to="/products#pancit"
+                                    smooth
                                 >
                                     PANCIT
                                 </NavLink>
                                 <NavLink
                                     className="dropdown-item"
                                     to="/products#soup-and-noodles"
+                                    smooth
                                 >
                                     SOUP AND NOODLES
                                 </NavLink>
                                 <NavLink
                                     className="dropdown-item"
-                                    to="/products/chicken"
+                                    to="/products#chicken"
                                 >
                                     CHICKEN
                                 </NavLink>
                                 <NavLink
                                     className="dropdown-item"
-                                    to="/products/beef"
+                                    to="/products#beef"
+                                    smooth
                                 >
                                     BEEF
                                 </NavLink>
                                 <NavLink
                                     className="dropdown-item"
-                                    to="/products/pork"
+                                    to="/products#pork"
+                                    smooth
                                 >
                                     PORK
                                 </NavLink>
                                 <NavLink
                                     className="dropdown-item"
-                                    to="/products/fish"
+                                    to="/products#fish"
+                                    smooth
                                 >
                                     FISH
                                 </NavLink>
                                 <NavLink
                                     className="dropdown-item"
-                                    to="/products/vegetables"
+                                    to="/products#vegetables"
+                                    smooth
                                 >
                                     VEGETABLES
                                 </NavLink>
                                 <NavLink
                                     className="dropdown-item"
-                                    to="/products/rice"
+                                    to="/products#rice"
+                                    smooth
                                 >
                                     RICE
                                 </NavLink>
                                 <NavLink
                                     className="dropdown-item"
-                                    to="/products/dessert"
+                                    to="/products#dessert"
+                                    smooth
                                 >
                                     DESSERT
                                 </NavLink>
