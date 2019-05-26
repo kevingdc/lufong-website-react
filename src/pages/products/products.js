@@ -6,15 +6,25 @@ import SoloMeals from './components/SoloMeals'
 import Pancit from './components/Pancit'
 import SoupAndNoodles from './components/SoupAndNoodles'
 import Chicken from './components/Chicken'
+import Beef from './components/Beef'
+import Pork from './components/Pork'
+import Fish from './components/Fish'
+import Vegetables from './components/Vegetables'
+import Dessert from './components/Dessert'
 
 export default class Products extends Component {
     render() {
         return (
             <div className="container-fluid">
                 <SoloMeals />
-                {/* <Pancit /> */}
+                <Pancit />
                 <SoupAndNoodles />
                 <Chicken />
+                <Beef />
+                <Pork />
+                <Fish />
+                <Vegetables />
+                <Dessert />
             </div>
         )
     }

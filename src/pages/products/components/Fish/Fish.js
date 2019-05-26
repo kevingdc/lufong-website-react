@@ -8,27 +8,27 @@ import MenuGroup from '../../../../components/MenuGroup'
 export default () => {
     return (
         <MenuGroup
-            id="chicken"
-            heading="CHICKEN"
+            id="fish"
+            heading="FISH"
             menu={[
                 {
-                    code: 'CD1',
-                    name: 'Chinese Fried Chicken',
+                    code: 'FD1',
+                    name: 'Sweet and Sour Fish',
                     price: '220',
                 },
                 {
-                    code: 'CD2',
-                    name: 'Sweet and Sour Chicken',
+                    code: 'FD2',
+                    name: 'Fish Cubes with Tofu',
                     price: '220',
                 },
                 {
-                    code: 'CD3',
-                    name: 'Chicken with Mushrooms',
+                    code: 'FD3',
+                    name: 'Fish Cubes with Tausi',
                     price: '220',
                 },
                 {
-                    code: 'CD4',
-                    name: 'Chicken with Tofu',
+                    code: 'FD4',
+                    name: 'Fish Cubes with Tofu and Tausi',
                     price: '220',
                 },
             ]}
