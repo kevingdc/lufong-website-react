@@ -13,8 +13,8 @@ import soloMeals5 from '../../../../assets/img/solo-meals-5.jpg'
 export default () => {
     return (
         <MenuGroup
-            id="solo-meals"
-            heading="SOLO MEALS"
+            id="pancit"
+            heading="PANCIT"
             menu={[
                 {
                     img: soloMeals1,
@@ -66,7 +66,7 @@ export default () => {
                     name: (
                         <>
                             Plain Rice, <br />
-                            1/2 Order of Hototay Guisado, <br />2 pcs. Ube Pao
+                            1/2 Order of Hoototay Guisado, <br />2 pcs. Ube Pao
                         </>
                     ),
                     price: '150',

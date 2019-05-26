@@ -13,3 +13,7 @@
 .header-line {
     border-top: 3px solid var(--accent-red);
 }
+
+.menu-list {
+    margin: auto;
+}

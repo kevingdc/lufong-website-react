@@ -3,15 +3,16 @@
 }
 
 .menu-item-code {
-    padding-right: 5px;
+    width: 15%;
 }
 
 .menu-item-name {
-    padding: 0 10px;
+    width: 65%;
 }
 
 .menu-item-price {
-    padding-left: 10px;
+    width: 20%;
+    text-align: right;
 }
 
 .menu-item-code {

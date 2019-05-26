@@ -62,7 +62,7 @@ export default class NavigationBar extends Component {
                                 </NavLink>
                                 <NavLink
                                     className="dropdown-item"
-                                    to="/products/soup-and-noodles"
+                                    to="/products#soup-and-noodles"
                                 >
                                     SOUP AND NOODLES
                                 </NavLink>
