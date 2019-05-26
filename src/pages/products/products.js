@@ -10,6 +10,7 @@ import Beef from './components/Beef'
 import Pork from './components/Pork'
 import Fish from './components/Fish'
 import Vegetables from './components/Vegetables'
+import Rice from './components/Rice'
 import Dessert from './components/Dessert'
 
 export default class Products extends Component {
@@ -24,6 +25,7 @@ export default class Products extends Component {
                 <Pork />
                 <Fish />
                 <Vegetables />
+                <Rice />
                 <Dessert />
             </div>
         )
