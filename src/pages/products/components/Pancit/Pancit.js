@@ -1,6 +1,9 @@
 import React from 'react'
 import './style.css'
 
+// Asset imports
+import pancitBihon from '../../../../assets/img/pancit-bihon.jpg'
+
 export default () => {
     return (
         <section className="menu-group mb-5" id="pancit">
@@ -81,6 +84,19 @@ export default () => {
                             )} */}
                         </tbody>
                     </table>
+                </div>
+
+                <div className="col-12 col-sm-6 col-lg-2">
+                    <figure>
+                        <img
+                            className="w-100"
+                            src={pancitBihon}
+                            alt="Lufong Pancit Bihon"
+                        />
+                        <figcaption className="text-center">
+                            Pancit Bihon
+                        </figcaption>
+                    </figure>
                 </div>
             </div>
         </section>

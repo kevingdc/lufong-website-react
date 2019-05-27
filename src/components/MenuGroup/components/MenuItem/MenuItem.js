@@ -3,10 +3,16 @@ import './style.css'
 
 export default class MenuItem extends Component {
     render() {
-        const { img, code, name, price } = this.props
+        const { img, code, name, price, large } = this.props
 
         return (
-            <div className="col-12 col-sm-6 col-lg-4 mb-1">
+            <div
+                className={
+                    'col-12 ' +
+                    (large ? 'col-lg-6' : 'col-sm-6 col-lg-4') +
+                    ' mb-1'
+                }
+            >
                 <table className="menu-item-table w-75">
                     <tbody>
                         {img ? (
