@@ -2,9 +2,20 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import './style.css'
 
+// Component imports
+import ProductPoster from '../../components/ProductPoster'
+import PromoPoster from '../../components/PromoPoster'
+
 // Asset imports
 import carousel1 from '../../assets/img/carousel-1.jpg'
 import carousel2 from '../../assets/img/carousel-2.jpg'
+import braisedBeefPoster from '../../assets/img/braised-beef-poster.jpg'
+import chineseFriedChickenPoster from '../../assets/img/chinese-fried-chicken-poster.jpg'
+import lechonKawaliPoster from '../../assets/img/lechon-kawali-poster.jpg'
+import lumpiangShanghaiPoster from '../../assets/img/lumpiang-shanghai-poster.jpg'
+import sulitSarap1Poster from '../../assets/img/sulit-sarap-1-poster.jpg'
+import sulitSarap2Poster from '../../assets/img/sulit-sarap-2-poster.jpg'
+import sulitSarap3Poster from '../../assets/img/sulit-sarap-3-poster.jpg'
 
 export default class Home extends Component {
     render() {
@@ -85,15 +96,61 @@ export default class Home extends Component {
                     </a>
                 </div>
                 <div className="container-fluid">
-                    <div className="d-flex flex-column">
+                    <div className="d-flex flex-column mb-3">
                         <div className="menu-header text-center">
                             <hr className="header-line" />
                             <h1>POPULAR PRODUCTS</h1>
                             <hr className="header-line" />
                         </div>
 
+                        <div className="row">
+                            <ProductPoster
+                                img={braisedBeefPoster}
+                                name="Lufong Braised Beef"
+                            />
+                            <ProductPoster
+                                img={chineseFriedChickenPoster}
+                                name="Lufong Chinese Fried Chicken"
+                            />
+                            <ProductPoster
+                                img={lechonKawaliPoster}
+                                name="Lufong Lechon Kawali"
+                            />
+                            <ProductPoster
+                                img={lumpiangShanghaiPoster}
+                                name="Lufong Lumpiang Shanghai"
+                            />
+                        </div>
+
                         <Link className="lufong-btn m-auto" to="/products">
                             SEE ALL PRODUCTS
+                        </Link>
+                    </div>
+
+                    <div className="d-flex flex-column">
+                        <div className="menu-header text-center">
+                            <hr className="header-line" />
+                            <h1>POPULAR PROMOS</h1>
+                            <hr className="header-line" />
+                        </div>
+
+                        <div className="row">
+                            <PromoPoster
+                                img={sulitSarap1Poster}
+                                name="Lufong Sulit Sarap Promo 1"
+                            />
+                            <PromoPoster
+                                img={sulitSarap2Poster}
+                                name="Lufong Sulit Sarap Promo 2"
+                            />
+                            <PromoPoster
+                                img={sulitSarap3Poster}
+                                name="Lufong Sulit Sarap Promo 3"
+                            />
+                        </div>
+
+                        <Link className="lufong-btn m-auto" to="/promos">
+                            SEE ALL PROMOS
                         </Link>
                     </div>
                 </div>
