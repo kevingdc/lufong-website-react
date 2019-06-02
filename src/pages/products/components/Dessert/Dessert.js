@@ -4,6 +4,8 @@ import React from 'react'
 import MenuGroup from '../../../../components/MenuGroup'
 
 // Asset imports
+import ubeButchi from '../../../../assets/img/ube-butchi.jpg'
+import ubePao from '../../../../assets/img/ube-pao.jpg'
 
 export default () => {
     return (
@@ -13,11 +15,13 @@ export default () => {
             menu={[
                 {
                     code: 'UBE1',
+                    img: ubeButchi,
                     name: 'Ube Butchi (4 pcs.)',
                     price: '80',
                 },
                 {
                     code: 'UBE2',
+                    img: ubePao,
                     name: 'Ube Pao (4 pcs.)',
                     price: '80',
                 },

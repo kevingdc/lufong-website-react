@@ -2,7 +2,10 @@ import React from 'react'
 import './style.css'
 
 // Asset imports
-import pancitBihon from '../../../../assets/img/pancit-bihon.jpg'
+// import pancitBihon from '../../../../assets/img/pancit-bihon.jpg'
+import pancitRegular from '../../../../assets/img/pancit-regular.jpg'
+import pancitQueen from '../../../../assets/img/pancit-queen.jpg'
+import pancitKing from '../../../../assets/img/pancit-king.jpg'
 
 export default () => {
     return (
@@ -86,7 +89,7 @@ export default () => {
                     </table>
                 </div>
 
-                <div className="col-12 col-sm-6 col-lg-2">
+                {/* <div className="col-12 col-sm-6 col-lg-2">
                     <figure>
                         <img
                             className="w-100"
@@ -95,6 +98,45 @@ export default () => {
                         />
                         <figcaption className="text-center">
                             Pancit Bihon
+                        </figcaption>
+                    </figure>
+                </div> */}
+
+                <div className="col-12 col-sm-6 col-lg-2">
+                    <figure>
+                        <img
+                            className="w-100"
+                            src={pancitRegular}
+                            alt="Lufong Pancit Regular"
+                        />
+                        <figcaption className="text-center">
+                            Pancit Regular
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div className="col-12 col-sm-6 col-lg-2">
+                    <figure>
+                        <img
+                            className="w-100"
+                            src={pancitQueen}
+                            alt="Lufong Pancit Queen"
+                        />
+                        <figcaption className="text-center">
+                            Pancit Queen
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div className="col-12 col-sm-6 col-lg-2">
+                    <figure>
+                        <img
+                            className="w-100"
+                            src={pancitKing}
+                            alt="Lufong Pancit King"
+                        />
+                        <figcaption className="text-center">
+                            Pancit King
                         </figcaption>
                     </figure>
                 </div>

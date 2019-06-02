@@ -64,6 +64,13 @@ export default class NavigationBar extends Component {
                                 </NavLink>
                                 <NavLink
                                     className="dropdown-item"
+                                    to="/products#dimsum"
+                                    smooth
+                                >
+                                    DIMSUM
+                                </NavLink>
+                                <NavLink
+                                    className="dropdown-item"
                                     to="/products#soup-and-noodles"
                                     smooth
                                 >

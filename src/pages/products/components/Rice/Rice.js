@@ -1,6 +1,9 @@
 import React from 'react'
 import './style.css'
+
 // Asset imports
+import shanghaiFriedRice from '../../../../assets/img/shanghai-fried-rice.jpg'
+import yangchowFriedRice from '../../../../assets/img/yangchow-fried-rice.jpg'
 
 export default () => {
     return (
@@ -47,19 +50,15 @@ export default () => {
                 <div className="col-12 col-sm-6 col-lg-4 mb-1">
                     <table className="menu-item-table w-100">
                         <tbody>
-                            {/* {img ? (
-                                <tr>
-                                    <td colSpan="3">
-                                        <img
-                                            className="w-100"
-                                            src={img}
-                                            alt={name}
-                                        />
-                                    </td>
-                                </tr>
-                            ) : (
-                                <></>
-                            )} */}
+                            <tr>
+                                <td colSpan="3">
+                                    <img
+                                        className="w-100"
+                                        src={shanghaiFriedRice}
+                                        alt="Lufong Shanghai Fried Rice"
+                                    />
+                                </td>
+                            </tr>
                             <tr>
                                 <td className="menu-item-name" rowSpan="2">
                                     <strong>Shanghai Fried Rice</strong>
@@ -82,19 +81,15 @@ export default () => {
                 <div className="col-12 col-sm-6 col-lg-4 mb-1">
                     <table className="menu-item-table w-100">
                         <tbody>
-                            {/* {img ? (
-                                <tr>
-                                    <td colSpan="3">
-                                        <img
-                                            className="w-100"
-                                            src={img}
-                                            alt={name}
-                                        />
-                                    </td>
-                                </tr>
-                            ) : (
-                                <></>
-                            )} */}
+                            <tr>
+                                <td colSpan="3">
+                                    <img
+                                        className="w-100"
+                                        src={yangchowFriedRice}
+                                        alt="Lufong Yangchow Fried Rice"
+                                    />
+                                </td>
+                            </tr>
                             <tr>
                                 <td className="menu-item-name" rowSpan="2">
                                     <strong>Yangchow Fried Rice</strong>

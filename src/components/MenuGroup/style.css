@@ -5,9 +5,8 @@
 
 .menu-header h1 {
     text-transform: uppercase;
-    font-size: 4em;
+    font-size: 3em;
     color: var(--primary-red-darker);
-    /* text-shadow: 2px 2px black; */
 }
 
 .header-line {
@@ -16,4 +15,13 @@
 
 .menu-list {
     margin: auto;
+}
+
+@media (min-width: 992px) {
+    .menu-header h1 {
+        font-size: 4em;
+    }
+}
+
+@media (min-width: 1200px) {
 }

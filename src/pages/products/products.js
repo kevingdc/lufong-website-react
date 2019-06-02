@@ -4,6 +4,7 @@ import './style.css'
 // Component imports
 import SoloMeals from './components/SoloMeals'
 import Pancit from './components/Pancit'
+import Dimsum from './components/Dimsum'
 import SoupAndNoodles from './components/SoupAndNoodles'
 import Chicken from './components/Chicken'
 import Beef from './components/Beef'
@@ -19,6 +20,7 @@ export default class Products extends Component {
             <div className="container-fluid">
                 <SoloMeals />
                 <Pancit />
+                <Dimsum />
                 <SoupAndNoodles />
                 <Chicken />
                 <Beef />

@@ -4,6 +4,8 @@ import React from 'react'
 import MenuGroup from '../../../../components/MenuGroup'
 
 // Asset imports
+import chopsueyGuisado from '../../../../assets/img/chopsuey-guisado.jpg'
+import chopsueyConLechon from '../../../../assets/img/chopsuey-con-lechon.jpg'
 
 export default () => {
     return (
@@ -13,6 +15,7 @@ export default () => {
             menu={[
                 {
                     code: 'VD1',
+                    img: chopsueyGuisado,
                     name: 'Chopsuey Guisado',
                     price: '220',
                 },
@@ -33,6 +36,7 @@ export default () => {
                 },
                 {
                     code: 'VD5',
+                    img: chopsueyConLechon,
                     name: 'Chopsuey Con Lechon',
                     price: '250',
                 },
