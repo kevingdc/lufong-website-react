@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "663d45c1ee57b8412dd762d8b2c60541",
+    "revision": "5e515f84346877e543f3c601264916a6",
     "url": "/lufong-website-react/index.html"
   },
   {
-    "revision": "b0243d9d641eef7ecfef",
+    "revision": "ec5d7aa9906e8f9d41a1",
     "url": "/lufong-website-react/static/css/main.fbbc5718.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lufong-website-react/static/js/2.514b919f.chunk.js"
   },
   {
-    "revision": "b0243d9d641eef7ecfef",
-    "url": "/lufong-website-react/static/js/main.75086a19.chunk.js"
+    "revision": "ec5d7aa9906e8f9d41a1",
+    "url": "/lufong-website-react/static/js/main.251c5cc5.chunk.js"
   },
   {
     "revision": "15bf1bddf9d39393ace6",

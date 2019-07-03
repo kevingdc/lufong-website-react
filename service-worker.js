@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/lufong-website-react/precache-manifest.ccbe28aaed28fa19e78d0cc6065f98f2.js"
+  "/lufong-website-react/precache-manifest.e4c76f5f7a097f70724af4caf4e07154.js"
 );
 
 self.addEventListener('message', (event) => {
