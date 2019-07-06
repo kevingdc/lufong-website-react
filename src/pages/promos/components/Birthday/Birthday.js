@@ -18,16 +18,17 @@ export default () => {
                     code: 'BP1',
                     name: (
                         <>
-                            Pancit Medium Queen
+                            Pancit Small Queen
                             <br />
-                            24 pcs. Chinese Fried Chicken
+                            4 Orders of Lumpiang Shanghai
                             <br />
-                            48 pcs. Lumpiang Shanghai
+                            4 Orders of Chinese Fried Chicken
                             <br />
-                            Chopsuey Guisado
+                            3 Orders of Any Regular Vegetable or Fish Dish
                             <br />
-                            Choice of 2 Large Yangchow Fried Rice or 30 pcs. Ube
-                            Pao
+                            1.5 Orders of Large Yangchow Fried Rice
+                            <br />
+                            12 pcs. Ube Pao
                             <br />
                             <br />
                             Good for 10-15 pax

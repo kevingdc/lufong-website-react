@@ -3,82 +3,72 @@ import React from 'react'
 // Component imports
 import MenuGroup from '../../../../components/MenuGroup'
 
-// Asset imports
-import ssp1 from '../../../../assets/img/sulit-sarap-promos-1.jpg'
-import ssp2 from '../../../../assets/img/sulit-sarap-promos-2.jpg'
-import ssp3 from '../../../../assets/img/sulit-sarap-promos-3.jpg'
-
 export default () => {
     return (
         <MenuGroup
-            id="sulit-sarap"
-            heading="SULIT SARAP PROMOS"
+            id="king"
+            heading="KING'S PROMOS"
             large={true}
             menu={[
                 {
-                    img: ssp1,
-                    code: 'SSP1',
+                    code: 'KP1',
                     name: (
                         <>
-                            Pancit Small Regular
+                            Pancit Small King
                             <br />
-                            Shanghai Fried Rice Large
+                            2 Main Dishes (choice of Pork, Chicken, Fish,
+                            Regular Vegetable)
                             <br />
-                            8 pcs. Ube Pao
+                            4 Cups Plain Rice
                             <br />
-                            2 Main Dishes (choice of Vegetable, Fish, Chicken,
-                            or Pork)
+                            4 pcs. Ube Pao
                             <br />
                             <br />
-                            Good for 5-6 pax
+                            Good for 4-5 pax
                             <br />
-                            Save P200
+                            Save P160
                         </>
                     ),
                     price: '1000',
                 },
                 {
-                    img: ssp2,
-                    code: 'SSP2',
+                    code: 'KP2',
                     name: (
                         <>
                             Pancit Small King
                             <br />
-                            Shanghai Fried Rice Large
+                            3 Main Dishes (choice of Pork, Chicken, Fish,
+                            Vegetable)
                             <br />
-                            8 pcs. Ube Pao
+                            Large Shanghai Fried Rice
                             <br />
-                            4 Main Dishes (choice of Vegetable, Fish, Chicken,
-                            or Pork)
+                            12 pcs. Ube Pao
                             <br />
                             <br />
                             Good for 6-8 pax
                             <br />
-                            Save P320
+                            Save P210
                         </>
                     ),
                     price: '1500',
                 },
                 {
-                    img: ssp3,
-                    code: 'SSP3',
+                    code: 'KP3',
                     name: (
                         <>
-                            Pancit Medium King
+                            Pancit Small King
                             <br />
-                            2 Shanghai Fried Rice Large
+                            4 Main Dishes (choice of Pork, Chicken, Fish,
+                            Vegetable, Beef)
+                            <br />
+                            2 Large Yangchow Fried Rice
                             <br />
                             12 pcs. Ube Pao
-                            <br />
-                            3 Main Dishes (choice of Vegetable, Fish, Chicken,
-                            or Pork)
-                            <br />
-                            1 Beef Dish
                             <br />
                             <br />
                             Good for 8-10 pax
                             <br />
-                            Save P460
+                            Save P280
                         </>
                     ),
                     price: '2000',

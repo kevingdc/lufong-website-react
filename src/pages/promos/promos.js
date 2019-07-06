@@ -2,13 +2,15 @@ import React from 'react'
 import './style.css'
 
 // Component imports
-import SulitSarap from './components/SulitSarap'
+import King from './components/King'
+import Queen from './components/Queen'
 import Birthday from './components/Birthday'
 
 export default () => {
     return (
         <div className="container-fluid pt-5">
-            <SulitSarap />
+            <King />
+            <Queen />
             <Birthday />
         </div>
     )

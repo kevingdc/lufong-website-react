@@ -2,20 +2,11 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import './style.css'
 
-// Component imports
-import ProductPoster from '../../components/ProductPoster'
-import PromoPoster from '../../components/PromoPoster'
-
 // Asset imports
 import carousel1 from '../../assets/img/carousel-1.jpg'
 import carousel2 from '../../assets/img/carousel-2.jpg'
-import braisedBeefPoster from '../../assets/img/braised-beef-poster.jpg'
-import chineseFriedChickenPoster from '../../assets/img/chinese-fried-chicken-poster.jpg'
-import lechonKawaliPoster from '../../assets/img/lechon-kawali-poster.jpg'
-import lumpiangShanghaiPoster from '../../assets/img/lumpiang-shanghai-poster.jpg'
-import sulitSarap1Poster from '../../assets/img/sulit-sarap-1-poster.jpg'
-import sulitSarap2Poster from '../../assets/img/sulit-sarap-2-poster.jpg'
-import sulitSarap3Poster from '../../assets/img/sulit-sarap-3-poster.jpg'
+import productMenu from '../../assets/img/product-menu.jpg'
+import promoMenu from '../../assets/img/promo-menu.jpg'
 
 export default class Home extends Component {
     render() {
@@ -99,26 +90,15 @@ export default class Home extends Component {
                     <div className="d-flex flex-column mb-3">
                         <div className="menu-header text-center">
                             <hr className="header-line" />
-                            <h1>POPULAR PRODUCTS</h1>
+                            <h1>OUR PRODUCTS</h1>
                             <hr className="header-line" />
                         </div>
 
                         <div className="row">
-                            <ProductPoster
-                                img={braisedBeefPoster}
-                                name="Lufong Braised Beef"
-                            />
-                            <ProductPoster
-                                img={chineseFriedChickenPoster}
-                                name="Lufong Chinese Fried Chicken"
-                            />
-                            <ProductPoster
-                                img={lechonKawaliPoster}
-                                name="Lufong Lechon Kawali"
-                            />
-                            <ProductPoster
-                                img={lumpiangShanghaiPoster}
-                                name="Lufong Lumpiang Shanghai"
+                            <img
+                                className="img-fluid w-75 m-auto pb-3"
+                                src={productMenu}
+                                alt="LuFong Products"
                             />
                         </div>
 
@@ -130,22 +110,15 @@ export default class Home extends Component {
                     <div className="d-flex flex-column">
                         <div className="menu-header text-center">
                             <hr className="header-line" />
-                            <h1>POPULAR PROMOS</h1>
+                            <h1>OUR PROMOS</h1>
                             <hr className="header-line" />
                         </div>
 
                         <div className="row">
-                            <PromoPoster
-                                img={sulitSarap1Poster}
-                                name="Lufong Sulit Sarap Promo 1"
-                            />
-                            <PromoPoster
-                                img={sulitSarap2Poster}
-                                name="Lufong Sulit Sarap Promo 2"
-                            />
-                            <PromoPoster
-                                img={sulitSarap3Poster}
-                                name="Lufong Sulit Sarap Promo 3"
+                            <img
+                                className="img-fluid w-75 m-auto pb-3"
+                                src={promoMenu}
+                                alt="LuFong Promos"
                             />
                         </div>
 
