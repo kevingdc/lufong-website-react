@@ -14,22 +14,22 @@ export default () => {
                 {
                     code: 'FD1',
                     name: 'Sweet and Sour Fish',
-                    price: '220',
+                    price: '230',
                 },
                 {
                     code: 'FD2',
                     name: 'Fish Cubes with Tofu',
-                    price: '220',
+                    price: '230',
                 },
                 {
                     code: 'FD3',
                     name: 'Fish Cubes with Tausi',
-                    price: '220',
+                    price: '230',
                 },
                 {
                     code: 'FD4',
                     name: 'Fish Cubes with Tofu and Tausi',
-                    price: '220',
+                    price: '230',
                 },
             ]}
         />

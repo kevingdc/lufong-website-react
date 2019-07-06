@@ -14,37 +14,37 @@ export default () => {
                 {
                     code: 'BD1',
                     name: 'Braised Beef',
-                    price: '250',
+                    price: '270',
                 },
                 {
                     code: 'BD2',
                     name: 'Beef Steak',
-                    price: '250',
+                    price: '270',
                 },
                 {
                     code: 'BD3',
-                    name: 'Beef with Mushrooms',
-                    price: '250',
+                    name: 'Beef with Mushroom',
+                    price: '270',
                 },
                 {
                     code: 'BD4',
                     name: 'Beef in Oyster Sauce',
-                    price: '250',
+                    price: '270',
                 },
                 {
                     code: 'BD5',
                     name: 'Shredded Beef with Onions',
-                    price: '250',
+                    price: '270',
                 },
                 {
                     code: 'BD6',
                     name: 'Beef with Tofu',
-                    price: '250',
+                    price: '270',
                 },
                 {
                     code: 'BD7',
                     name: 'Beef with Broccoli',
-                    price: '250',
+                    price: '270',
                 },
             ]}
         />

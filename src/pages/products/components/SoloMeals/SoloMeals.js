@@ -25,7 +25,7 @@ export default () => {
                             <br />1 pc. Ube Pao
                         </>
                     ),
-                    price: '150',
+                    price: '160',
                 },
                 {
                     img: soloMeals2,
@@ -36,7 +36,7 @@ export default () => {
                             <br />1 pc. Ube Pao
                         </>
                     ),
-                    price: '150',
+                    price: '160',
                 },
                 {
                     img: soloMeals3,
@@ -47,7 +47,7 @@ export default () => {
                             1/2 Order of Lechong Kawali, <br />1 pc. Ube Pao
                         </>
                     ),
-                    price: '150',
+                    price: '160',
                 },
                 {
                     img: soloMeals4,
@@ -58,7 +58,7 @@ export default () => {
                             1/2 Order of Braised Beef, <br />1 pc. Ube Pao
                         </>
                     ),
-                    price: '150',
+                    price: '160',
                 },
                 {
                     img: soloMeals5,
@@ -69,7 +69,7 @@ export default () => {
                             1/2 Order of Hototay Guisado, <br />2 pcs. Ube Pao
                         </>
                     ),
-                    price: '150',
+                    price: '160',
                 },
             ]}
         />

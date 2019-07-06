@@ -6,7 +6,6 @@ import MenuGroup from '../../../../components/MenuGroup'
 // Asset imports
 import porkSiomai from '../../../../assets/img/pork-siomai.jpg'
 import japaneseSiomai from '../../../../assets/img/japanese-siomai.jpg'
-import pinsecPrito from '../../../../assets/img/pinsec-prito.jpg'
 
 export default () => {
     return (
@@ -33,20 +32,25 @@ export default () => {
                 },
                 {
                     code: 'DM4',
-                    name: 'Spicy Wanton (6 pcs.)',
-                    price: '120',
+                    name: 'Prawn Crackers',
+                    price: '50',
                 },
-                {
-                    code: 'DM6',
-                    name: 'Pinsec Prito (6 pcs.)',
-                    price: '120',
-                },
-                {
-                    code: 'DM12',
-                    img: pinsecPrito,
-                    name: 'Pinsec Prito (12 pcs.)',
-                    price: '220',
-                },
+                // {
+                //     code: 'DM4',
+                //     name: 'Spicy Wanton (6 pcs.)',
+                //     price: '120',
+                // },
+                // {
+                //     code: 'DM6',
+                //     name: 'Pinsec Prito (6 pcs.)',
+                //     price: '120',
+                // },
+                // {
+                //     code: 'DM12',
+                //     img: pinsecPrito,
+                //     name: 'Pinsec Prito (12 pcs.)',
+                //     price: '220',
+                // },
             ]}
         />
     )

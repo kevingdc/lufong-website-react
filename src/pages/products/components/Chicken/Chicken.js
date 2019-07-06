@@ -21,17 +21,22 @@ export default () => {
                 {
                     code: 'CD2',
                     name: 'Sweet and Sour Chicken',
-                    price: '220',
+                    price: '240',
                 },
                 {
                     code: 'CD3',
                     name: 'Chicken with Mushrooms',
-                    price: '220',
+                    price: '240',
                 },
                 {
                     code: 'CD4',
                     name: 'Chicken with Tofu',
-                    price: '220',
+                    price: '240',
+                },
+                {
+                    code: 'CD5',
+                    name: 'Whole Chicken',
+                    price: '380',
                 },
             ]}
         />
