@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "663d45c1ee57b8412dd762d8b2c60541",
+    "revision": "c90f6c1638611a2c36b230533a94201a",
     "url": "/lufong-website-react/index.html"
   },
   {
-    "revision": "b0243d9d641eef7ecfef",
-    "url": "/lufong-website-react/static/css/main.fbbc5718.chunk.css"
+    "revision": "7341688b0130e4ac73cf",
+    "url": "/lufong-website-react/static/css/main.2fd7621f.chunk.css"
   },
   {
-    "revision": "a322755ff48935eca12e",
-    "url": "/lufong-website-react/static/js/2.514b919f.chunk.js"
+    "revision": "bcea71737cd897f8eab6",
+    "url": "/lufong-website-react/static/js/2.9232bc74.chunk.js"
   },
   {
-    "revision": "b0243d9d641eef7ecfef",
-    "url": "/lufong-website-react/static/js/main.75086a19.chunk.js"
+    "revision": "7341688b0130e4ac73cf",
+    "url": "/lufong-website-react/static/js/main.df8a7d3d.chunk.js"
   },
   {
     "revision": "15bf1bddf9d39393ace6",
@@ -24,10 +24,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lufong-website-react/static/media/birthday-promos-1.0176ab32.jpg"
   },
   {
-    "revision": "f2ebd86a5382bc9d2c87d64b897d3b92",
-    "url": "/lufong-website-react/static/media/braised-beef-poster.f2ebd86a.jpg"
-  },
-  {
     "revision": "aa30d018f92a93044c7e2a7385a3dc61",
     "url": "/lufong-website-react/static/media/carousel-1.aa30d018.jpg"
   },
@@ -36,16 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lufong-website-react/static/media/carousel-2.5d945831.jpg"
   },
   {
-    "revision": "0d170229676380ef6b376f1690c281dc",
-    "url": "/lufong-website-react/static/media/chinese-fried-chicken-poster.0d170229.jpg"
-  },
-  {
     "revision": "526e11bda93ad27a52567ca7f67da4cf",
     "url": "/lufong-website-react/static/media/chinese-fried-chicken.526e11bd.jpg"
-  },
-  {
-    "revision": "e524c5cf8f571c698e26c80992856653",
-    "url": "/lufong-website-react/static/media/chopsuey-con-lechon.e524c5cf.jpg"
   },
   {
     "revision": "7ece275c7dffaf29becd9c72cc1a2b2f",
@@ -54,10 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6a61fd098974e9df4892c3c75b773a34",
     "url": "/lufong-website-react/static/media/japanese-siomai.6a61fd09.jpg"
-  },
-  {
-    "revision": "68497a75357931b1c7fe816d53538fde",
-    "url": "/lufong-website-react/static/media/lechon-kawali-poster.68497a75.jpg"
   },
   {
     "revision": "17e52f1c87c259cd02c6459414a0b1c6",
@@ -70,10 +54,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "28305f6a562243ebb065fcb363ea31e3",
     "url": "/lufong-website-react/static/media/lufong-pansit-king.28305f6a.png"
-  },
-  {
-    "revision": "65d196a931db6ad4caf930cbb1e303a3",
-    "url": "/lufong-website-react/static/media/lumpiang-shanghai-poster.65d196a9.jpg"
   },
   {
     "revision": "968d63d07fc43dded3eb2b144c43e540",
@@ -100,6 +80,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lufong-website-react/static/media/pork-siomai.11a81a68.jpg"
   },
   {
+    "revision": "ee4d7976e2792ab4509c94d59bed6129",
+    "url": "/lufong-website-react/static/media/product-menu.ee4d7976.jpg"
+  },
+  {
+    "revision": "cc8a29d2ce323cb46f9b52f91daf37be",
+    "url": "/lufong-website-react/static/media/promo-menu.cc8a29d2.jpg"
+  },
+  {
     "revision": "005bc6eb399deb2e75160a4322230807",
     "url": "/lufong-website-react/static/media/shanghai-fried-rice.005bc6eb.jpg"
   },
@@ -122,30 +110,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3086677b39dc0c07687d6f259f2f2391",
     "url": "/lufong-website-react/static/media/solo-meals-5.3086677b.jpg"
-  },
-  {
-    "revision": "7529996529c94f2b4f11ee070836dd3c",
-    "url": "/lufong-website-react/static/media/sulit-sarap-1-poster.75299965.jpg"
-  },
-  {
-    "revision": "ea0b26b068e24e3731f06abc9439034c",
-    "url": "/lufong-website-react/static/media/sulit-sarap-2-poster.ea0b26b0.jpg"
-  },
-  {
-    "revision": "934721e94e4a42d1521c59c6c530a8d6",
-    "url": "/lufong-website-react/static/media/sulit-sarap-3-poster.934721e9.jpg"
-  },
-  {
-    "revision": "cf256c234af349a516520d8b5e9e5795",
-    "url": "/lufong-website-react/static/media/sulit-sarap-promos-1.cf256c23.jpg"
-  },
-  {
-    "revision": "ac739009299b7153f2ba6b1ca3481198",
-    "url": "/lufong-website-react/static/media/sulit-sarap-promos-2.ac739009.jpg"
-  },
-  {
-    "revision": "973308d0009f2ed73b16b3b3f00f5b49",
-    "url": "/lufong-website-react/static/media/sulit-sarap-promos-3.973308d0.jpg"
   },
   {
     "revision": "913b5f68dae9e9ff3a77e387cc5fa7b6",
