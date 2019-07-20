@@ -10,7 +10,12 @@ export default class NavigationBar extends Component {
         return (
             <nav className="nav navbar-expand-lg fixed-top">
                 <NavLink className="navbar-brand" to="/" exact>
-                    <img src={logo} alt="LuFong" />
+                    <img
+                        src={logo}
+                        alt="LuFong"
+                        data-toggle="collapse"
+                        data-target=".navbar-collapse.show"
+                    />
                 </NavLink>
                 <button
                     className="navbar-toggler ml-auto"
@@ -28,7 +33,11 @@ export default class NavigationBar extends Component {
 
                 <div className="collapse navbar-collapse" id="navbarContent">
                     <ul className="navbar-nav mr-auto">
-                        <li className="nav-item">
+                        <li
+                            className="nav-item"
+                            data-toggle="collapse"
+                            data-target=".navbar-collapse.show"
+                        >
                             <NavLink className="nav-link" to="/" exact>
                                 HOME
                             </NavLink>
@@ -47,6 +56,8 @@ export default class NavigationBar extends Component {
                             <div
                                 className="dropdown-menu"
                                 aria-labelledby="navbarDropdown"
+                                data-toggle="collapse"
+                                data-target=".navbar-collapse.show"
                             >
                                 <NavLink
                                     className="dropdown-item"
@@ -127,17 +138,29 @@ export default class NavigationBar extends Component {
                                 </NavLink>
                             </div>
                         </li>
-                        <li className="nav-item">
+                        <li
+                            className="nav-item"
+                            data-toggle="collapse"
+                            data-target=".navbar-collapse.show"
+                        >
                             <NavLink className="nav-link" to="/promos">
                                 PROMOS
                             </NavLink>
                         </li>
-                        <li className="nav-item">
+                        <li
+                            className="nav-item"
+                            data-toggle="collapse"
+                            data-target=".navbar-collapse.show"
+                        >
                             <NavLink className="nav-link" to="/locations">
                                 LOCATIONS
                             </NavLink>
                         </li>
-                        <li className="nav-item">
+                        <li
+                            className="nav-item"
+                            data-toggle="collapse"
+                            data-target=".navbar-collapse.show"
+                        >
                             <NavLink className="nav-link" to="/about-us">
                                 ABOUT US
                             </NavLink>
