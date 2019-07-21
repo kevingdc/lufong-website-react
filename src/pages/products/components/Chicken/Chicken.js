@@ -17,6 +17,7 @@ export default () => {
                     img: chineseFriedChicken,
                     name: 'Chinese Fried Chicken',
                     price: '220',
+                    bestseller: true,
                 },
                 {
                     code: 'CD2',

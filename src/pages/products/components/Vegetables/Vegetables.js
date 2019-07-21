@@ -23,6 +23,7 @@ export default () => {
                     code: 'VD2',
                     name: 'Chopsuey Queen (with Lechon)',
                     price: '260',
+                    bestseller: true,
                 },
                 {
                     code: 'VD3',
@@ -38,6 +39,7 @@ export default () => {
                     code: 'VD5',
                     name: 'Hototay Guisado',
                     price: '230',
+                    bestseller: true,
                 },
                 {
                     code: 'VD6',

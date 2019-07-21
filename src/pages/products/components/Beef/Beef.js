@@ -15,6 +15,7 @@ export default () => {
                     code: 'BD1',
                     name: 'Braised Beef',
                     price: '270',
+                    bestseller: true,
                 },
                 {
                     code: 'BD2',

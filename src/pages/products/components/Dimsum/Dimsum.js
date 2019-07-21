@@ -18,6 +18,7 @@ export default () => {
                     img: porkSiomai,
                     name: 'Pork Siomai (4 pcs.)',
                     price: '100',
+                    bestseller: true,
                 },
                 {
                     code: 'DM2',

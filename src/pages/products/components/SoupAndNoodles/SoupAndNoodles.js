@@ -33,8 +33,9 @@ export default () => {
                 },
                 {
                     code: 'SN5',
-                    name: 'Beef Wonton',
+                    name: 'Beef Wanton',
                     price: '200',
+                    bestseller: true,
                 },
             ]}
         />

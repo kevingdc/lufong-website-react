@@ -15,6 +15,7 @@ export default () => {
                     code: 'FD1',
                     name: 'Sweet and Sour Fish',
                     price: '230',
+                    bestseller: true,
                 },
                 {
                     code: 'FD2',

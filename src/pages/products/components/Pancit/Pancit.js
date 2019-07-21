@@ -39,7 +39,7 @@ export default () => {
                                 <td className="text-right">(2-3 pax)</td>
                                 <td className="menu-item-regular">200</td>
                                 <td className="menu-item-queen">280</td>
-                                <td className="menu-item-king">250</td>
+                                <td className="menu-item-king">350</td>
                             </tr>
 
                             <tr>

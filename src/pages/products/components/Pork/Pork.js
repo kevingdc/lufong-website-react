@@ -19,6 +19,7 @@ export default () => {
                     img: lumpiangShanghai,
                     name: 'Lumpiang Shanghai',
                     price: '240',
+                    bestseller: true,
                 },
                 {
                     code: 'PD2',
@@ -30,6 +31,7 @@ export default () => {
                     code: 'PD3',
                     name: 'Salt and Pepper Spareribs',
                     price: '240',
+                    bestseller: true,
                 },
                 {
                     code: 'PD4',
@@ -66,6 +68,7 @@ export default () => {
                     img: pinsecPrito,
                     name: 'Pinsec Prito (12 pcs.)',
                     price: '240',
+                    bestseller: true,
                 },
             ]}
         />

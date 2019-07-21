@@ -18,6 +18,7 @@ export default () => {
                     img: ubeButchi,
                     name: 'Ube Butchi (4 pcs.)',
                     price: '80',
+                    bestseller: true,
                 },
                 {
                     code: 'UBE2',

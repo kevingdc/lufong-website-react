@@ -21,6 +21,7 @@ export default class MenuGroup extends Component {
                             img={item.img}
                             code={item.code}
                             price={item.price}
+                            bestseller={item.bestseller}
                             large={this.props.large}
                         />
                     ))}
