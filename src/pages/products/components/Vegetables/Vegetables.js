@@ -5,6 +5,7 @@ import MenuGroup from '../../../../components/MenuGroup'
 
 // Asset imports
 import chopsueyGuisado from '../../../../assets/img/chopsuey-guisado.jpg'
+import chopsueyKing from '../../../../assets/img/chopsuey-king.jpg'
 // import chopsueyConLechon from '../../../../assets/img/chopsuey-con-lechon.jpg'
 
 export default () => {
@@ -27,6 +28,7 @@ export default () => {
                 },
                 {
                     code: 'VD3',
+                    img: chopsueyKing,
                     name: 'Chopsuey King (with Lechon & Longanisa)',
                     price: '280',
                 },

@@ -5,6 +5,7 @@ import MenuGroup from '../../../../components/MenuGroup'
 
 // Asset imports
 import chineseFriedChicken from '../../../../assets/img/chinese-fried-chicken.jpg'
+import wholeChicken from '../../../../assets/img/whole-chicken.jpg'
 
 export default () => {
     return (
@@ -36,6 +37,7 @@ export default () => {
                 },
                 {
                     code: 'CD5',
+                    img: wholeChicken,
                     name: 'Whole Chicken',
                     price: '380',
                 },

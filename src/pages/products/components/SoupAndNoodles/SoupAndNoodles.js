@@ -4,6 +4,7 @@ import React from 'react'
 import MenuGroup from '../../../../components/MenuGroup'
 
 // Asset imports
+import beefWanton from '../../../../assets/img/beef-wanton.jpg'
 
 export default () => {
     return (
@@ -33,6 +34,7 @@ export default () => {
                 },
                 {
                     code: 'SN5',
+                    img: beefWanton,
                     name: 'Beef Wanton',
                     price: '200',
                     bestseller: true,
