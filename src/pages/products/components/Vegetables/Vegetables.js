@@ -6,6 +6,7 @@ import MenuGroup from '../../../../components/MenuGroup'
 // Asset imports
 import chopsueyGuisado from '../../../../assets/img/chopsuey-guisado.jpg'
 import chopsueyKing from '../../../../assets/img/chopsuey-king.jpg'
+import chopsueyQueen from '../../../../assets/img/chopsuey-queen.jpg'
 // import chopsueyConLechon from '../../../../assets/img/chopsuey-con-lechon.jpg'
 
 export default () => {
@@ -22,6 +23,7 @@ export default () => {
                 },
                 {
                     code: 'VD2',
+                    img: chopsueyQueen,
                     name: 'Chopsuey Queen (with Lechon)',
                     price: '260',
                     bestseller: true,

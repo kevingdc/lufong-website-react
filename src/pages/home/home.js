@@ -5,6 +5,7 @@ import './style.css'
 // Asset imports
 import carousel1 from '../../assets/img/carousel-1.jpg'
 import carousel2 from '../../assets/img/carousel-2.jpg'
+import carousel3 from '../../assets/img/carousel-3.jpg'
 import productMenu from '../../assets/img/product-menu.jpg'
 import promoMenu from '../../assets/img/promo-menu.jpg'
 
@@ -24,11 +25,11 @@ export default class Home extends Component {
                             className="active"
                         />
                         <li data-target="#infoCarousel" data-slide-to="1" />
-                        {/* <li data-target="#carousel" data-slide-to="2"></li> */}
+                        <li data-target="#infoCarousel" data-slide-to="2" />
                     </ol>
 
                     <div className="carousel-inner">
-                        <div className="carousel-item active ">
+                        <div className="carousel-item active">
                             <img
                                 src={carousel1}
                                 className="d-block w-100 animated zoomIn"
@@ -37,17 +38,34 @@ export default class Home extends Component {
 
                             <div className="carousel-caption d-none d-sm-block">
                                 <h1 className="animated lightSpeedIn">
-                                    Chinese Cuisine for Take Out &amp; Delivery
+                                    Celebrate your Birthday with #LutongLUFONG
                                 </h1>
-                                <p className="animated zoomIn">
+                                {/* <p className="animated zoomIn">
                                     Imus &amp; Macapagal Branch
-                                </p>
+                                </p> */}
                             </div>
                         </div>
 
-                        <div className="carousel-item ">
+                        <div className="carousel-item">
                             <img
                                 src={carousel2}
+                                className="d-block w-100 animated zoomIn"
+                                alt="LuFong"
+                            />
+
+                            <div className="carousel-caption d-none d-sm-block">
+                                <h1 className="animated lightSpeedIn">
+                                    Chinese Cuisine for Take Out &amp; Delivery
+                                </h1>
+                                {/* <p className="animated zoomIn">
+                                    Imus &amp; Macapagal Branch
+                                </p> */}
+                            </div>
+                        </div>
+
+                        <div className="carousel-item">
+                            <img
+                                src={carousel3}
                                 className="d-block w-100 animated zoomIn"
                                 alt="LuFong"
                             />
@@ -55,9 +73,9 @@ export default class Home extends Component {
                                 <h1 className="animated lightSpeedIn">
                                     Go Get the Bestsellers!
                                 </h1>
-                                <p className="animated zoomIn">
+                                {/* <p className="animated zoomIn">
                                     All products are FRESHLY COOKED upon order.
-                                </p>
+                                </p> */}
                             </div>
                         </div>
                     </div>

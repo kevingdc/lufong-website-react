@@ -66,11 +66,7 @@ class Locations extends Component {
                                             <br />
                                             Monday 11am-9pm
                                             <br />
-                                            Tuesday-Thursday 10am-9pm
-                                            <br />
-                                            Friday-Saturday 10am-10pm
-                                            <br />
-                                            Sunday 10am-9pm
+                                            Tuesday-Sunday 10am-9pm
                                         </>
                                     ),
                                     locationUrl:

@@ -15,16 +15,26 @@ export default () => {
             menu={[
                 {
                     code: 'UBE1',
-                    img: ubeButchi,
-                    name: 'Ube Butchi (4 pcs.)',
+                    name: 'Ube Pao (4 pcs.)',
                     price: '80',
                     bestseller: true,
                 },
                 {
-                    code: 'UBE2',
+                    code: 'UBE12',
                     img: ubePao,
-                    name: 'Ube Pao (4 pcs.)',
+                    name: 'Ube Pao (12 pcs.)',
+                    price: '200',
+                },
+                {
+                    code: 'UBE2',
+                    name: 'Ube Butchi (4 pcs.)',
                     price: '80',
+                },
+                {
+                    code: 'UBE15',
+                    img: ubeButchi,
+                    name: 'Ube Butchi (15 pcs.)',
+                    price: '250',
                 },
             ]}
         />
