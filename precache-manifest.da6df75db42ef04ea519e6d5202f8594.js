@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "97ab577d897cf9eccf93a19eda918bcd",
+    "revision": "1d1283a805bf05c3f9bb848225add87d",
     "url": "/lufong-website-react/index.html"
   },
   {
-    "revision": "b8069edc9e3456fb0aa5",
+    "revision": "a0daba3841dabf44238b",
     "url": "/lufong-website-react/static/css/main.7221e107.chunk.css"
   },
   {
-    "revision": "b9070cc9aff99b50b462",
-    "url": "/lufong-website-react/static/js/2.6cca91c7.chunk.js"
+    "revision": "c8a2c2e3663e31475c70",
+    "url": "/lufong-website-react/static/js/2.8399b3f1.chunk.js"
   },
   {
-    "revision": "b8069edc9e3456fb0aa5",
-    "url": "/lufong-website-react/static/js/main.386b81dd.chunk.js"
+    "revision": "a0daba3841dabf44238b",
+    "url": "/lufong-website-react/static/js/main.1fccb244.chunk.js"
   },
   {
     "revision": "15bf1bddf9d39393ace6",
@@ -28,16 +28,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lufong-website-react/static/media/bestseller.65ec8eda.png"
   },
   {
-    "revision": "0176ab3292c391aacac3077e155463ca",
-    "url": "/lufong-website-react/static/media/birthday-promos-1.0176ab32.jpg"
+    "revision": "0d54ec12e6b2368c3adf39fd9b583eaa",
+    "url": "/lufong-website-react/static/media/birthday-promos-1.0d54ec12.jpg"
+  },
+  {
+    "revision": "b50ec5cfda8e98c844f0a6c6274fe300",
+    "url": "/lufong-website-react/static/media/carousel-1.b50ec5cf.jpg"
   },
   {
     "revision": "aa30d018f92a93044c7e2a7385a3dc61",
-    "url": "/lufong-website-react/static/media/carousel-1.aa30d018.jpg"
+    "url": "/lufong-website-react/static/media/carousel-2.aa30d018.jpg"
   },
   {
     "revision": "5d9458310230748838e0dacfa8affec9",
-    "url": "/lufong-website-react/static/media/carousel-2.5d945831.jpg"
+    "url": "/lufong-website-react/static/media/carousel-3.5d945831.jpg"
   },
   {
     "revision": "526e11bda93ad27a52567ca7f67da4cf",
@@ -50,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9629954ed294a68b5c77898f6fa18817",
     "url": "/lufong-website-react/static/media/chopsuey-king.9629954e.jpg"
+  },
+  {
+    "revision": "f788b40e2281362b2fc9915688985ad8",
+    "url": "/lufong-website-react/static/media/chopsuey-queen.f788b40e.jpg"
   },
   {
     "revision": "6a61fd098974e9df4892c3c75b773a34",
@@ -144,19 +152,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lufong-website-react/static/media/solo-meals-5.3086677b.jpg"
   },
   {
-    "revision": "39464ffc4ea8c6614e28a55cc209313f",
-    "url": "/lufong-website-react/static/media/ube-butchi.39464ffc.jpg"
+    "revision": "ac39dc3de53f3df49f75650f4ca4083d",
+    "url": "/lufong-website-react/static/media/ube-butchi.ac39dc3d.jpg"
   },
   {
-    "revision": "f11ffcfe9401062a70c490b7f24ce465",
-    "url": "/lufong-website-react/static/media/ube-pao.f11ffcfe.jpg"
+    "revision": "3aa3124c388e40aad62f692626c026f5",
+    "url": "/lufong-website-react/static/media/ube-pao.3aa3124c.jpg"
   },
   {
     "revision": "78746d149041894f813d9a111da6d2dc",
     "url": "/lufong-website-react/static/media/whole-chicken.78746d14.jpg"
   },
   {
-    "revision": "0a701616f191de5cdb806b3fa43d1524",
-    "url": "/lufong-website-react/static/media/yangchow-fried-rice.0a701616.jpg"
+    "revision": "c708eda60eb79508e5dec38a94c2f940",
+    "url": "/lufong-website-react/static/media/yangchow-fried-rice.c708eda6.jpg"
   }
 ]);
