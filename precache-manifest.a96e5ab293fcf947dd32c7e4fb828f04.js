@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1d1283a805bf05c3f9bb848225add87d",
+    "revision": "20ec5c8c54d9933893c6a9761b07d09d",
     "url": "/lufong-website-react/index.html"
   },
   {
-    "revision": "a0daba3841dabf44238b",
+    "revision": "742a7dfcf90b7a0ec416",
     "url": "/lufong-website-react/static/css/main.7221e107.chunk.css"
   },
   {
-    "revision": "c8a2c2e3663e31475c70",
-    "url": "/lufong-website-react/static/js/2.8399b3f1.chunk.js"
+    "revision": "78dd8c7fdfae25482d42",
+    "url": "/lufong-website-react/static/js/2.2cab92b7.chunk.js"
   },
   {
-    "revision": "a0daba3841dabf44238b",
-    "url": "/lufong-website-react/static/js/main.1fccb244.chunk.js"
+    "revision": "742a7dfcf90b7a0ec416",
+    "url": "/lufong-website-react/static/js/main.564703fa.chunk.js"
   },
   {
     "revision": "15bf1bddf9d39393ace6",
@@ -24,12 +24,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lufong-website-react/static/media/beef-wanton.dd0724c3.jpg"
   },
   {
+    "revision": "57c51a81c95d860bae06dd11620991e2",
+    "url": "/lufong-website-react/static/media/beef-with-broccoli.57c51a81.jpg"
+  },
+  {
     "revision": "65ec8eda645fd93b8b671b7a8291e06c",
     "url": "/lufong-website-react/static/media/bestseller.65ec8eda.png"
   },
   {
     "revision": "0d54ec12e6b2368c3adf39fd9b583eaa",
     "url": "/lufong-website-react/static/media/birthday-promos-1.0d54ec12.jpg"
+  },
+  {
+    "revision": "82b9b71b154935138f29c80eb0398a77",
+    "url": "/lufong-website-react/static/media/braised-beef.82b9b71b.jpg"
   },
   {
     "revision": "b50ec5cfda8e98c844f0a6c6274fe300",
@@ -92,12 +100,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lufong-website-react/static/media/lumpiang-shanghai.968d63d0.jpg"
   },
   {
-    "revision": "9c829fb1a14d1e6d44484326a93c9c76",
-    "url": "/lufong-website-react/static/media/pancit-king.9c829fb1.jpg"
+    "revision": "a3f091455445d97638a95906937d00f5",
+    "url": "/lufong-website-react/static/media/pancit-king.a3f09145.jpg"
   },
   {
-    "revision": "7acdf33de3372842c5d75af634c9ef1c",
-    "url": "/lufong-website-react/static/media/pancit-queen.7acdf33d.jpg"
+    "revision": "708af08a9d416cb0c18397ee72fd2318",
+    "url": "/lufong-website-react/static/media/pancit-queen.708af08a.jpg"
   },
   {
     "revision": "637bb3aa459504290e8bb8026d969f38",
@@ -160,8 +168,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lufong-website-react/static/media/ube-pao.3aa3124c.jpg"
   },
   {
-    "revision": "78746d149041894f813d9a111da6d2dc",
-    "url": "/lufong-website-react/static/media/whole-chicken.78746d14.jpg"
+    "revision": "d0885651a09e82ec96305f4df933c7f2",
+    "url": "/lufong-website-react/static/media/whole-chicken.d0885651.jpg"
   },
   {
     "revision": "c708eda60eb79508e5dec38a94c2f940",
