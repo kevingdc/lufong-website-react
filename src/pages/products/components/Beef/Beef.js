@@ -4,6 +4,8 @@ import React from 'react'
 import MenuGroup from '../../../../components/MenuGroup'
 
 // Asset imports
+import beefWithBroccoli from '../../../../assets/img/beef-with-broccoli.jpg'
+import braisedBeef from '../../../../assets/img/braised-beef.jpg'
 
 export default () => {
     return (
@@ -13,6 +15,7 @@ export default () => {
             menu={[
                 {
                     code: 'BD1',
+                    img: braisedBeef,
                     name: 'Braised Beef',
                     price: '270',
                     bestseller: true,
@@ -44,6 +47,7 @@ export default () => {
                 },
                 {
                     code: 'BD7',
+                    img: beefWithBroccoli,
                     name: 'Beef with Broccoli',
                     price: '270',
                 },
